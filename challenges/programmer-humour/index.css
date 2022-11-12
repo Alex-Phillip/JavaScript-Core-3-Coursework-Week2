@@ -1,0 +1,11 @@
+#container {
+    display: grid;
+    grid-template-areas: "a a a"
+    ". b ."
+    "c c c";
+}
+
+#funnyImage {
+    border: 3px solid #000000;
+    grid-area: b;
+};
